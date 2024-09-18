@@ -8,6 +8,11 @@
 
 /* 1rem = 16px */
 
+:root {
+     --grey-800: #1E2938;
+     --grey-600: #475569;
+}
+
 header{
      background-image: url(./imagens/bg-mobile.svg);
      background-size: cover;
@@ -15,12 +20,18 @@ header{
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-bottom: 3.7rem;
 }
 
+main{
+     padding-inline: 1.5rem;
+}
 
-
-
-
+.descricao h1 {
+     color: var(--grey-800);
+     margin-bottom: 1rem;
+     font-size: 1.5626rem;
+}
 
 
 
