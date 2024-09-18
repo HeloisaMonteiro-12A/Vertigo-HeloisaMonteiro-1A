@@ -9,8 +9,13 @@
 /* 1rem = 16px */
 
 :root {
-     --grey-800: #1E2938;
-     --grey-600: #475569;
+     --gray-800: #1E2938;
+     --gray-600: #475569;
+     --purple: #7c3aed;
+     --gray-200: #e2e8f0;
+     --gray-400: #94a3b8;
+     --white: #FFF;
+     --ligth-purple: #9F67FF
 }
 
 header{
@@ -20,6 +25,7 @@ header{
      display: flex;
      justify-content: center;
      align-items: center;
+
      margin-bottom: 3.7rem;
 }
 
@@ -27,15 +33,24 @@ main{
      padding-inline: 1.5rem;
 }
 
-.descricao h1 {
-     color: var(--grey-800);
-     margin-bottom: 1rem;
-     font-size: 1.5626rem;
+.descricao{
+     margin-bottom: 2.5rem;
 }
 
+.descricao h1 {
+     color: var(--gray-800);
+     margin-bottom: 1rem;
+     font-size: 1.5625rem;
+}
 
+.descricao p{
+     font-size: 0.8125rem;
+     color: var(--gray-600);
+}
 
-
+.input-box{
+     
+}
 
 
 
