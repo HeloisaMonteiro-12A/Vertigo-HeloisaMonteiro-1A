@@ -22,6 +22,7 @@ header{
      background-image: url(./imagens/bg-mobile.svg);
      background-size: cover;
      height: 8.375rem;
+
      display: flex;
      justify-content: center;
      align-items: center;
@@ -107,4 +108,32 @@ main{
     color: var(--white);
     
 }
+
+.login > p{
+     color: var(--gray-600);
+}
+
+.login > p a{
+     font-weight: 700;
+     font-size: 1rem;
+}
+
+@media(min-width: 1000px) {
+     header {
+          background: none;
+          justify-content: flex-start;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
