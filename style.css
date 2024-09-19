@@ -114,7 +114,6 @@ main{
      transition: 0.5s;
      cursor: pointer;
 }
-
 .login > p{
      color: var(--gray-600);
 }
